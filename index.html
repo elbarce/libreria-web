@@ -83,11 +83,20 @@
                         <div>
                             <!--Badge, estado de la promo-->
                             <div class="flex justify-between items-center mb-4">
-                                <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
-                                    20% OFF
-                                </span>
-                                <span class="text-xs font-medium text-stone-500"> Lunes a viernes</span>
+                                <!-- Columna izquierda (grupo: badge + fecha)-->
+                                <div>
+                                    <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
+                                        20% OFF
+                                    </span>
+                                    <span class="text-xs font-medium text-stone-500"> Lunes a viernes</span>
+                                </div>
+                            
+                                <!-- Columna derecha (imagen de la promo)-->
+                                <div class="h-8 flex items-center">
+                                    <img src="./img/cdni.svg" alt="Logo Cuenta DNI" class="h-6 w-auto object-contain">
+                                </div>
                             </div>
+
 
                             <!--Título de la promo-->
                             <h3 class="text-lg font-bold text-slate-900">
@@ -98,11 +107,54 @@
                             </p>
                         </div>
 
-                        <!--Pie de la tarjeta con botón de acción-->
+                            <!--Pie de la tarjeta con botón de acción-->
                         <div class="mt-6 pt-4 border-t border-stone-100 flex items-center justify-between">
                             <div>
                                 <span class="block text-xs text-stone-400 uppercase font-semibold">Tope de reintegro</span>
                                 <span class="text-sm font-bold text-slate-800">$6.000 por semana</span>
+                            </div>
+
+                            <a href="https://wa.me/?text=Hola!%20Quería%20consultar%20por%20la%20promo%20de%20Cuenta%20DNI"
+                            target="_blank"
+                            class="bg-emerald-800 hover:bg-emerald-900 text-white text-xs font-semibold px-3.5 py-2.5 rounded-lg transition-colors flex items-center gap-1.5 ">
+                            <span>💬</span>
+                            <span>Consultar</span>
+                            </a>
+
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta de promoción CDNI 3 cuotas-->
+                    <article class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200/80 flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div>
+                            <!--Badge, estado de la promo-->
+                            <div class="flex justify-between items-center mb-4">
+                                <div>
+                                    <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
+                                        3 cuotas S/I
+                                    </span>
+                                    <span class="text-xs font-medium text-stone-500"> Todos los días</span>
+                                </div>
+
+                                <div class="h-8 flex items-center">
+                                    <img src="./img/cdni.svg" alt="Logo Cuenta DNI" class="h-6 w-auto object-contain">
+                                </div>
+                            </div>
+
+                            <!--Título de la promo-->
+                            <h3 class="text-lg font-bold text-slate-900">
+                                Crédito - Banco Provincia a través de Cuenta DNI
+                            </h3>
+                            <p class="text-stone-600 text-sm mt-2 leading-relaxed">
+                                Válido presencial o virtual con QR o link de pago
+                            </p>
+                        </div>
+
+                        <!--Pie de la tarjeta con botón de acción-->
+                        <div class="mt-6 pt-4 border-t border-stone-100 flex items-center justify-between">
+                            <div>
+                                <span class="block text-xs text-stone-400 uppercase font-semibold"></span>
+                                <span class="text-sm font-bold text-slate-800"></span>
                             </div>
 
                             <a href="https://wa.me/?text=Hola!%20Quería%20consultar%20por%20la%20promo%20de%20Cuenta%20DNI"
@@ -120,10 +172,16 @@
                         <div>
                             <!--Badge, estado de la promo-->
                             <div class="flex justify-between items-center mb-4">
-                                <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
-                                    30% OFF
-                                </span>
-                                <span class="text-xs font-medium text-stone-500"> Martes</span>
+                                <div>
+                                    <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
+                                        30% OFF
+                                    </span>
+                                    <span class="text-xs font-medium text-stone-500"> Martes</span>
+                                </div>
+
+                                <div class="h-8 flex items-center">
+                                    <img src="./img/bbva.svg" alt="Logo BBVA" class="h-6 w-auto object-contain">
+                                </div>
                             </div>
 
                             <!--Título de la promo-->
@@ -157,10 +215,15 @@
                         <div>
                             <!--Badge, estado de la promo-->
                             <div class="flex justify-between items-center mb-4">
-                                <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
-                                    3 cuotas S/I
-                                </span>
-                                <span class="text-xs font-medium text-stone-500"> Viernes y sábados</span>
+                                <div>
+                                    <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
+                                        3 cuotas S/I
+                                    </span>
+                                    <span class="text-xs font-medium text-stone-500"> Viernes y sábados</span>
+                                </div>
+                                <div class="h-8 flex items-center">
+                                    <img src="./img/bbva.svg" alt="Logo BBVA" class="h-6 w-auto object-contain">
+                                </div>
                             </div>
 
                             <!--Título de la promo-->
@@ -226,42 +289,43 @@
                         </div>
                     </article>
 
-                    <!-- Tarjeta de promoción BBVA viernes y sábados-->
-                    <article class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200/80 flex flex-col justify-between hover:shadow-md transition-shadow">
-                        <div>
-                            <!--Badge, estado de la promo-->
-                            <div class="flex justify-between items-center mb-4">
-                                <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
-                                    3 cuotas S/I
-                                </span>
-                                <span class="text-xs font-medium text-stone-500"> Viernes y sábados</span>
-                            </div>
+                 </div>
+             </section>
 
-                            <!--Título de la promo-->
-                            <h3 class="text-lg font-bold text-slate-900">
-                                Crédito - BBVA
-                            </h3>
-                            <p class="text-stone-600 text-sm mt-2 leading-relaxed">
-                                Válido presencial o virtual con QR o link de pago
-                            </p>
-                        </div>
+             <!-- Llamado de atención hacia la tienda -->
+            <!--Separador sutil-->
+            <hr class="my-12 border-stone-200/60">
 
-                        <!--Pie de la tarjeta con botón de acción-->
-                        <div class="mt-6 pt-4 border-t border-stone-100 flex items-center justify-between">
-                            <div>
-                                <span class="block text-xs text-stone-400 uppercase font-semibold"></span>
-                                <span class="text-sm font-bold text-slate-800"></span>
-                            </div>
+            <!-- Sección tienda online (id="tienda")-->
+             <section id="tienda" class="scroll-mt-20 bg-stone-900 text-stone-100 rounded-3xl p-8 md:p-12 shadow-xl relative overflow-hidden">
+                <!-- Detalle decorativo en verde inglés para dar la identidad -->
+                 <div class="absolute -right-12 -bottom-12 w-64 h-64 bg-[#1b3b2b] rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+                 <div class="relative z-10 max-w-2xl">
+                    <span class="inline-block bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
+                        Catálogo completo
+                    </span>
 
-                            <a href="https://wa.me/?text=Hola!%20Quería%20consultar%20por%20la%20promo%20de%20Cuenta%20DNI"
-                            target="_blank"
-                            class="bg-emerald-800 hover:bg-emerald-900 text-white text-xs font-semibold px-3.5 py-2.5 rounded-lg transition-colors flex items-center gap-1.5 ">
-                            <span>💬</span>
-                            <span>Consultar</span>
-                            </a>
+                    <h2 class="text-2xl md:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                        Buscabas algún libro en particular? 
+                    </h2>
 
-                        </div>
-                    </article>
+                    <p class="text-stone-300 text-sm md:text-base mt-3 leading-relaxed font-light">
+                        Explorá nuestro catálogo actualizado y reservá tu libro directamente desde la tienda online oficial
+                    </p>
+
+                    <div class="mt-6 flex flex-col sm:flex-row gap-4 items-strecht sm:items-center">
+                        <a href="https://cenizalibros.tiendanube.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex justify-center items-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-6 py-3.5 rounded-xl shdow-xl transition-all text-sm">
+                        <span>Ingresar a la tienda</span>
+                        <span>↗</span>
+                        </a>
+
+                        <span class="text-xs text-stone-400 text-center sm:text-left self-center">
+                            Envíos a domicilio y retiros sin cargo en el local
+                        </span>
+                    </div>
                  </div>
              </section>
         </main>
