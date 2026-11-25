@@ -5,6 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ceniza libros - Promociones</title>
         <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+        <!-- Le indico a Tailwind que de font-serif utilice Playfair Display -->
+        <script>tailwind.config = {
+            theme: {
+                extend:{
+                    fontFamily: {serif: ['"Playfair Display"', 'Georgia', 'Serif'],}
+                    }
+                }
+            }
+        </script>
+
+        <!-- agrego un style para registrar los local archive de la font-->
+        <style>
+            @font-face {
+                font-family: 'Playfair Display';
+                src: url('./fonts/FairDisplay-Regular.ttf') format('truetype');
+                font-weight: 400;
+                font-style: normal;
+                font-display: swap;
+            }
+
+            @font-face {
+                font-family: 'Playfair Display';
+                src: url('./fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+                font-weight: 700;
+                font-style: normal;
+                font-display: swap;
+            }
+        </style>
+
     </head>
     <body class="bg-stone-50 text-stone-800 antialised font-sans">
         <header class="bg-[#1b3b2b] text-stone-100 sticky top-0 z-50 shadow-md">
@@ -35,7 +65,7 @@
                 </span>
 
                 <!--Título principal único (h1)-->
-                <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+                <h1 class="font-seriftext-3xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
                     Ahorrá en tus lecturas con nuestros medios de pago
                 </h1>
 
@@ -67,7 +97,7 @@
 
                 <!-- Encabezado de la sección -->
                 <div class="mb-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">
+                    <h2 class="font-serif text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">
                         Medios de pago y promociones
                     </h2>
                     <p class="text-stone-600 text-sm md:text-base mt-1">
@@ -305,7 +335,7 @@
                         Catálogo completo
                     </span>
 
-                    <h2 class="text-2xl md:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                    <h2 class="font-serif text-2xl md:text-4xl font-extrabold text-white tracking-tight leading-tight">
                         Buscabas algún libro en particular? 
                     </h2>
 
@@ -342,7 +372,7 @@
                             Librería de Barrio
                         </span>
 
-                        <h2 class="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight leading-snug">
+                        <h2 class="font-serif text-2xl md:text-3xl font-bold text-slate-900 tracking-tight leading-snug">
                             Un punto de encuentro para los lectores de Ranelagh
                         </h2>
 
