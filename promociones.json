@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "metodo": "CUENTA DNI",
+        "entidad": "Banco Provincia",
+        "categoria":"Billetera",
+        "badge":"20% OFF",
+        "badgeColor":"bg-emerald-100 text-emerald-800",
+        "dias":"Lunes a Viernes",
+        "detalle":"Reintegro a cargo del banco, válido presencial o virtual con QR o link de pago",
+        "logo":"./img/cdni.svg",
+        "pie1":"TOPE DE REINTEGRO",
+        "pie2":"$6.000 por semana"
+    },
+    {
+        "id": 2,
+        "metodo": "Crédito Visa y Master",
+        "entidad": "CUENTA DNI",
+        "categoria":"Billetera",
+        "badge":"6 cuotas S/I",
+        "badgeColor":"bg-emerald-100 text-emerald-800",
+        "dias":"Todos los días",
+        "detalle":"Válido presencial o virtual con QR o link de pago",
+        "logo":"./img/cdni.svg",
+        "pie1":"",
+        "pie2":""    
+    },
+    {
+        "id": 3,
+        "metodo": "Crédito Visa y Master",
+        "entidad": "BBVA",
+        "categoria":"Banco",
+        "badge":"30% OFF",
+        "badgeColor":"bg-blue-100 text-blue-800",
+        "dias":"Martes",
+        "detalle":"Reintegro a cargo del banco, válido presencial o virtual con QR o link de pago",
+        "logo":"./img/bbva.svg",
+        "pie1":"TOPE DE REINTEGRO",
+        "pie2":"$12.000 por mes"
+
+    },
+    {
+        "id": 4,
+        "metodo": "Crédito Visa y Master",
+        "entidad": "BBVA",
+        "categoria":"Banco",
+        "badge":"3 cuotas S/I",
+        "badgeColor":"bg-blue-100 text-blue-800",
+        "dias":"Viernes y sábados",
+        "detalle":"Válido presencial o virtual con QR o link de pago",
+        "logo":"./img/bbva.svg",
+        "pie1":"SIN MÍNIMO DE COMPRA",
+        "pie2":""
+    },
+    {
+        "id": 5,
+        "metodo": "Tarjetas de crédito",
+        "entidad": "Todos los bancos",
+        "categoria":"",
+        "badge":"2 cuotas S/I",
+        "badgeColor":"bg-emerald-100 text-emerald-800",
+        "dias":"Todos los días",
+        "detalle":"Válido presencial o virtual con QR o link de pago",
+        "logo":"",
+        "pie1":"EN COMPRAS DESDE",
+        "pie2":"$30.000"
+    },
+]
